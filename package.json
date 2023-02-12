@@ -2,7 +2,19 @@
   "name": "packageform",
   "private": true,
   "version": "0.0.0",
+  "description": "can use form",
   "type": "module",
+  "main": "dist/assets/index-b18a1f36.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rbrahma1245/Form.git"
+  },
+  "keywords": [
+    "console log react form"
+  ],
+  "author": "Rahul",
+  "license": "MIT",
+  "files": ["dist/**/*"],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -18,6 +30,7 @@
     "yup": "^1.0.0"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.191",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
